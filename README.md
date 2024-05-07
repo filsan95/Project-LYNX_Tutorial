@@ -5,8 +5,7 @@ LYNX is a text-based browser, meaning that it does not display images or video c
 1. Because it is light and fast
 2. Because it bypasses all of the advertising material (which are graphical in nature)
 3. Because it looks super rad to surf the web using a terminal
-
-<p>This document serves as a brief guide on how to set-up and use the LYNX browser.</p>
+<p> This document serves as a brief guide on how to set-up and use the LYNX browser. To learn morn about LYNX checkout this <a href='https://en.wikipedia.org/wiki/Lynx_(web_browser)'>Wikipedia</a> article for a quick read, or visit the <a href='https://lynx.invisible-island.net/'> LYNX </a> website to find information on releases, and additional documentation.
 
 ## Set-up Guide
 1. Install the Lynx browser via terminal
@@ -17,11 +16,25 @@ LYNX is a text-based browser, meaning that it does not display images or video c
 
 2. On your terminal, check where your Lynx file is located
 	```
-	#Shows location of file
 	which lynx
 	```
-Output:
-  ```
-	#Output example
-	/usr/local/bin/lynx
-  ```
+     Output:
+	  ```
+	 /usr/local/bin/lynx
+	  ```
+   
+3. Run the Lynx browser
+   
+     For a quick search run: (Note: This method only works when searching for specific websites, and does not hold for natural language search)
+	  ```
+	  lynx <insert web address or website name>
+	  ```
+     Alternatively, 
+	  ```
+	  lynx
+	  ```
+
+# Then press 'g' on your keyboard to make a search, for instance you can visit Duck Duck Go or Google simply by typing in Duck Duck Go or Google
+
+ 
+
