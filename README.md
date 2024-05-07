@@ -22,8 +22,9 @@ LYNX is a text-based browser, meaning that it does not display images or video c
 	  ```
 	 /usr/local/bin/lynx
 	  ```
-   
-3. Run the Lynx browser
+
+## Browsing Guide
+1. Run the Lynx browser
    
      For a quick search run: (Note: This method only works when searching for specific websites, and does not hold for natural language search)
 	  ```
