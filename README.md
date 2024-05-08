@@ -1,11 +1,11 @@
 # LYNX - A GUIDE TO SETUP FOR MACS
 
 ## Introduction
-LYNX is a text-based browser, meaning that it does not display images or video content, which can be assessed through the terminal. So why would you want to use LYNX, as opposed to the modern graphic web browsers (ie. Opera, Mozilla, Chrome etc.)?
+Lynx is a text-based browser, meaning that it does not display images or video content, which can be assessed through the terminal. So why would you want to use Lynx, as opposed to the modern graphic web browsers (ie. Opera, Mozilla, Chrome etc.)?
 1. Because it is light and fast
 2. Because it bypasses all of the advertising material (which are graphical in nature)
 3. Because it looks super rad to surf the web using a terminal
-<p> This document serves as a brief guide on how to set-up and use the LYNX browser. To learn morn about LYNX checkout this <a href='https://en.wikipedia.org/wiki/Lynx_(web_browser)'>Wikipedia</a> article for a quick read, or visit the <a href='https://lynx.invisible-island.net/'> LYNX </a> website to find information on releases, and additional documentation.
+<p> This document serves as a brief guide on how to set-up and use the Lynx browser. To learn morn about Lynx checkout this <a href='https://en.wikipedia.org/wiki/Lynx_(web_browser)'>Wikipedia</a> article for a quick read, or visit the <a href='https://lynx.invisible-island.net/'> Lynx </a> website to find information on releases, and additional documentation.
 
 ## Set-up Guide
 1. Install the Lynx browser via terminal
