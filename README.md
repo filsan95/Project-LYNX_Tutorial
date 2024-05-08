@@ -40,5 +40,22 @@ Lynx is a text-based browser, meaning that it does not display images or video c
 ## Granting Cookie Access
 One reoccuring issue you will encounter are a series of prompts asking for permission on cookies for every search. This is because most modern website on the web require or use cookies. Given that the default setting for LYNX is to disable cookies, to bypass the persistant prompts, and for ease of use, it is highly recommended to permananlty enable cookies on your browser. To do so, take the following steps. 
 
- 
+1. If you enter Lynx, and press 'o', you will see the default settings. All fields with (!) can only be altered temporarily. As can be seen in the sample image below the setting for cookies appear to be permanantly unchangeable. Even though the cookie setting cannot be altered permanantly through the settings, there is a alternative method to enable cookies in Lynx for good. However, there are some requirements before we can make those changes.
+
+    <img width="578" alt="Image_001" src="https://github.com/filsan95/Project-Lynx_Tutorial/assets/75952698/42172630-f4d8-49a4-bccb-c144073d2c18">
+
+2. You will need to access your shell profile (Note: In this case I am using bash as my shell, if using zsh replace with the following: sudo nano ~/.zshrc or sudo ~/.zprofile. Additionally, can replace nano with vim or emacs if preffered.)
+	  ```
+	  sudo nano /bash_profile
+	  ```
+3. Once you run the above line, enter your computer password
+4. Then enter the following line into your file, and exit with CTRL + X then type 'Y' to save changes made.
+	  ```
+	  alias lynx='lynx -accept_all_cookies'
+	  ```
+5. To execute your changes, run the following line
+	  ```
+	  source ~/.bashrc
+	  ```
+6. Exit terminal, and Quit Terminal
 
