@@ -44,7 +44,7 @@ One reoccuring issue you will encounter are a series of prompts asking for permi
 
     <img width="578" alt="Image_001" src="https://github.com/filsan95/Project-Lynx_Tutorial/assets/75952698/42172630-f4d8-49a4-bccb-c144073d2c18">
 
-2. You will need to access your shell profile (Note: In this case I am using bash as my shell, if using zsh replace with the following: sudo nano ~/.zshrc or sudo ~/.zprofile. Additionally, can replace nano with vim or emacs if preffered.)
+2. You will need to access your shell profile (Note: In this case I am using bash as my shell, if using zsh replace with the following: sudo nano ~/.zshrc or sudo nano ~/.zprofile. Additionally, can replace nano with vim or emacs if preffered.)
 	  ```
 	  sudo nano /bash_profile
 	  ```
@@ -53,9 +53,19 @@ One reoccuring issue you will encounter are a series of prompts asking for permi
 	  ```
 	  alias lynx='lynx -accept_all_cookies'
 	  ```
-5. To execute your changes, run the following line
+   To give a bit more detail about what this line does, if we run the command below in a terminal we'll open the version of Lynx with cookies disabled
+   	  ```
+	  lynx
+	  ```
+   However, if we run this line, we run a version of Lynx with the cookies enabled.
+	  ```
+	  lynx -accept_all_cookies
+	  ```
+  Instead of running this lengthy line everytime we wish to use Lynx with all the cookies enabled. We create an alias for this to run as <code>lynx</code> instead of <code>lynx -accept_all_cookies</code>
+  
+6. To execute your changes, run the following line
 	  ```
 	  source ~/.bashrc
 	  ```
-6. Exit terminal, and Quit Terminal
+7. Exit terminal, and reopen to use.
 
