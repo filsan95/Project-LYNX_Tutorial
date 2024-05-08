@@ -42,7 +42,8 @@ One reoccuring issue you will encounter are a series of prompts asking for permi
 
 1. If you enter Lynx, and press 'o', you will see the default settings. All fields with (!) can only be altered temporarily. As can be seen in the sample image below the setting for cookies appear to be permanantly unchangeable. Even though the cookie setting cannot be altered permanantly through the settings, there is a alternative method to enable cookies in Lynx for good. However, there are some requirements before we can make those changes.
 
-    <img width="578" alt="Image_001" src="https://github.com/filsan95/Project-Lynx_Tutorial/assets/75952698/42172630-f4d8-49a4-bccb-c144073d2c18">
+    <img width="1037" alt="image_001" src="https://github.com/filsan95/Project-Lynx_Tutorial/assets/75952698/ae08918a-12dc-463d-a2e5-c8d4559c33c3">
+
 
 2. You will need to access your shell profile (Note: In this case I am using bash as my shell, if using zsh replace with the following: sudo nano ~/.zshrc or sudo nano ~/.zprofile. Additionally, can replace nano with vim or emacs if preffered.)
 	  ```
