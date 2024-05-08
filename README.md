@@ -5,7 +5,7 @@ Lynx is a text-based browser, meaning that it does not display images or video c
 1. Because it is light and fast
 2. Because it bypasses all of the advertising material (which are graphical in nature)
 3. Because it looks super rad to surf the web using a terminal
-<p> This document serves as a brief guide on how to set-up and use the Lynx browser. To learn morn about Lynx checkout this <a href='https://en.wikipedia.org/wiki/Lynx_(web_browser)'>Wikipedia</a> article for a quick read, or visit the <a href='https://lynx.invisible-island.net/'> Lynx </a> website to find information on releases, and additional documentation.
+<p> This document serves as a brief guide on how to set-up and use the Lynx browser. To learn morn about Lynx checkout this <a href='https://en.wikipedia.org/wiki/Lynx_(web_browser)'>Wikipedia</a> article for a quick read, or visit the <a href='https://lynx.invisible-island.net/'>Lynx</a> website to find information on releases, and additional documentation.
 
 ## Set-up Guide
 1. Install the Lynx browser via terminal
