@@ -30,12 +30,13 @@ LYNX is a text-based browser, meaning that it does not display images or video c
 	  ```
 	  lynx <insert web address or website name>
 	  ```
-     Alternatively, 
+     Alternatively, run the line below and press 'g' on your keyboard to make a search. For instance, you can visit Duck Duck Go or Google simply by typing in Duck Duck Go or Google after the 'URL to open:' prompt.
+
 	  ```
 	  lynx
 	  ```
 
-# Then press 'g' on your keyboard to make a search, for instance you can visit Duck Duck Go or Google simply by typing in Duck Duck Go or Google
-
+## Granting Cookie Access
+One reoccuring issue you will encountered is a series of prompts asking for permission on cookies for every search. This is because most website on the modern web use cookies, and the default setting for LYNX is to disable cookies. To permanantly enable cookies, 
  
 
