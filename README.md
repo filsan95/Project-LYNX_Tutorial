@@ -13,6 +13,7 @@ LYNX is a text-based browser, meaning that it does not display images or video c
 	```
 	brew install lynx
 	```
+     If you do not have homebrew install on your device, follow the step in the link provided: https://brew.sh
 
 2. On your terminal, check where your Lynx file is located
 	```
@@ -28,7 +29,7 @@ LYNX is a text-based browser, meaning that it does not display images or video c
    
      For a quick search run: (Note: This method only works when searching for specific websites, and does not hold for natural language search)
 	  ```
-	  lynx <insert web address or website name>
+	  lynx <insert web address or website name w/o the brackets>
 	  ```
      Alternatively, run the line below and press 'g' on your keyboard to make a search. For instance, you can visit Duck Duck Go or Google simply by typing in Duck Duck Go or Google after the 'URL to open:' prompt.
 
@@ -37,6 +38,7 @@ LYNX is a text-based browser, meaning that it does not display images or video c
 	  ```
 
 ## Granting Cookie Access
-One reoccuring issue you will encountered is a series of prompts asking for permission on cookies for every search. This is because most website on the modern web use cookies, and the default setting for LYNX is to disable cookies. To permanantly enable cookies, 
+One reoccuring issue you will encounter are a series of prompts asking for permission on cookies for every search. This is because most modern website on the web require or use cookies. Given that the default setting for LYNX is to disable cookies, to bypass the persistant prompts, and for ease of use, it is highly recommended to permananlty enable cookies on your browser. To do so, take the following steps. 
+
  
 
