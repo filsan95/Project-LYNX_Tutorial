@@ -15,11 +15,11 @@ Lynx is a text-based browser, meaning that it does not support images, audio or 
 	```
      If you do not have homebrew installed on your device, follow the steps in the link provided: https://brew.sh.
 
-2. On your terminal, check where your Lynx file is located
+2. On your terminal, check where your Lynx file is located.
 	```
 	which lynx
 	```
-     Output:(This is what your output should look like)
+     Output: (Note: This is what your output should look like)
 	  ```
 	 /usr/local/bin/lynx
 	  ```
@@ -53,7 +53,7 @@ One reoccuring issue you will encounter are a series of prompts asking for permi
 	  ```
 	  sudo nano /bash_profile
 	  ```
-3. Once you run the above line, enter your computer password
+3. Once you run the above line, enter your computer password.
 4. Then enter the following line into your file, and exit with CTRL + X then press 'Y' to save changes made.
 	  ```
 	  alias lynx='lynx -accept_all_cookies'
