@@ -8,7 +8,7 @@ Lynx is a text-based browser, meaning that it does not support images, audio or 
 <p> This document serves as a brief guide on how to set-up and use the Lynx browser. To learn morn about Lynx checkout this <a href='https://en.wikipedia.org/wiki/Lynx_(web_browser)'>Wikipedia</a> article for a quick read, or visit the <a href='https://lynx.invisible-island.net/'>Lynx</a> website to find information on releases, and additional documentation.
 
 ## Setup Guide
-1. Install the Lynx browser via terminal
+1. Install the Lynx browser via terminal.
    
 	```
 	brew install lynx
@@ -19,7 +19,7 @@ Lynx is a text-based browser, meaning that it does not support images, audio or 
 	```
 	which lynx
 	```
-     Output:
+     Output:(This is what your output should look like)
 	  ```
 	 /usr/local/bin/lynx
 	  ```
@@ -68,7 +68,7 @@ One reoccuring issue you will encounter are a series of prompts asking for permi
 	  ```
    Instead of running this lengthy line everytime we wish to use Lynx with all the cookies enabled, we create an alias for this to run as <code>lynx</code> instead of <code>lynx -accept_all_cookies</code>.
   
-6. To execute your changes, run the following line
+6. To execute your changes, run the following line:
 	  ```
 	  source ~/.bashrc
 	  ```
